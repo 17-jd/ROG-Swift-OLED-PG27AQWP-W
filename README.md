@@ -41,11 +41,14 @@ Responsive to mobile, keyboard-focusable, and respects `prefers-reduced-motion`.
 **Monitor — PG27AQWP-W (available in India):** cheapest verified ₹1,27,999 at Computech
 Store (+91 70 3939 6969, ships pan-India). Also National PC (Kolkata), PrimeABGB (Mumbai,
 out of stock), and wholesale via Nexus Infosys / EliteHubs (Mumbai). Global MSRP $1,099;
-no official ASUS India MRP.
+no official ASUS India MRP. **UAE alternative:** Al Ershad (Bur Dubai, +971 52 902 3208,
+~AED 4,459) and Adarc Computer (Abu Dhabi, +971 2 676 3999, AED 6,999 in stock).
 
 **Router — GT-BE19000AI (NOT yet sold in India):** global MSRP $899.99; no India price.
-Best path is import / B2B special-order (strongest lead: Cirqube Systems, Pune). Don't
-confuse it with the older GT-BE19000 (Black, non-AI) on Amazon.in.
+Best India path is import / B2B special-order (strongest lead: Cirqube Systems, Pune).
+**UAE alternative — it IS sold there:** Buy4Less (Dubai, +971 55 253 0853, AED 3,608 in
+stock); also Sharaf DG (~AED 3,499) and Amazon.ae. Don't confuse it with the older
+GT-BE19000 (Black, non-AI).
 
 ## Honesty note
 
