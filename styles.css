@@ -222,6 +222,44 @@ a.lp-call.ghost{background:transparent;color:var(--volt);border:1px solid var(--
   a.lp-call{width:100%;justify-content:center}
   .lp-notes dl{grid-template-columns:1fr}
 }
+/* ===================================================================
+   COUNTRY PICKER (cp-) — the gate shown on first open
+   =================================================================== */
+.cp-hero{padding:70px 0 26px;text-align:center}
+.cp-hero .eyebrow{display:block;margin-bottom:16px}
+.cp-hero h1{font-size:clamp(32px,6.5vw,58px);max-width:16ch;margin-inline:auto}
+.cp-hero h1 .slash{color:var(--volt)}
+.cp-hero .sub{margin:16px auto 0}
+.cp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:38px 0 10px}
+@media(max-width:760px){.cp-grid{grid-template-columns:1fr}}
+.cp-card{display:block;background:var(--carbon);border:1px solid var(--edge);border-top:3px solid var(--signal);
+  padding:26px 22px;text-align:left;transition:border-color .18s,transform .18s;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%)}
+.cp-card.uae{border-top-color:var(--ok)} .cp-card.china{border-top-color:var(--volt)}
+.cp-card:hover{transform:translateY(-4px);text-decoration:none;border-color:var(--signal)}
+.cp-card.uae:hover{border-color:var(--ok)} .cp-card.china:hover{border-color:var(--volt)}
+.cp-card .flag{font-size:48px;line-height:1}
+.cp-card .cname{font-family:var(--disp);font-weight:700;font-size:24px;margin:12px 0 4px;color:var(--paper)}
+.cp-card .ctag{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.cp-card .csub{color:var(--mute);font-size:13.5px;margin-top:12px;min-height:60px}
+.cp-card .enter{font-family:var(--mono);font-weight:700;font-size:14px;color:var(--volt);margin-top:14px;letter-spacing:.04em}
+.cp-foot{padding:18px 0 60px;color:var(--mute);font-size:13px}
+
+/* official business links block */
+.lp-links{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 6px}
+a.lp-linkbtn{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12.5px;
+  color:var(--paper);border:1px solid var(--edge);background:var(--steel);padding:10px 13px;letter-spacing:.02em;
+  clip-path:polygon(7px 0,100% 0,100% 100%,0 100%,0 100%);transition:border-color .15s,color .15s}
+a.lp-linkbtn:hover{border-color:var(--volt);color:var(--volt);text-decoration:none}
+a.lp-linkbtn.official{border-color:rgba(255,36,82,.5)}
+a.lp-linkbtn.official:hover{border-color:var(--signal);color:var(--signal)}
+
+/* topbar change-country control */
+.topbar .country{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--paper);
+  border:1px solid var(--edge);background:var(--steel);padding:7px 11px;margin-right:auto;margin-left:4px}
+.topbar .country:hover{border-color:var(--volt);color:var(--volt);text-decoration:none}
+.topbar .country .fl{margin-right:6px}
+
 @media(prefers-reduced-motion:reduce){
   *{transition:none!important;scroll-behavior:auto!important}
 }

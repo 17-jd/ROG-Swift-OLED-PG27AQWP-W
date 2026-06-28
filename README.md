@@ -9,15 +9,18 @@ behind clickable links for everything we collected (specs, all prices, reviews, 
 
 ## How to open
 
-Open **`index.html`** in any browser. The front page is the simple dealer list (product →
-dealer name → location → **tap-to-call** number). Each product has an **OPEN FULL DOSSIER →**
-link and tabs at the top to jump to the detailed pages.
+Open **`index.html`** in any browser. It opens with a **country picker** — choose
+**India / UAE-Dubai / China** — and lands on that country's page with its local dealers,
+official ASUS purchase links and pricing. Each product links to a full "dossier".
 
 ```
-index.html    → simple front page: dealers + tap-to-call + "field notes" + dossier links
-monitor.html  → full monitor dossier (specs, all prices, every dealer, reviews, sources)
-router.html   → full router dossier (specs, sourcing leads, reviews, import notes, sources)
-styles.css    → shared design system (one source of truth for all three pages)
+index.html    → country picker (India / UAE / China)
+india.html    → India: dealers + tap-to-call + official ASUS India links + ₹ pricing
+uae.html      → UAE / Dubai: dealers + official links + AED pricing
+china.html    → China: official ASUS / ROG China stores (JD / e-store) + ¥ pricing
+monitor.html  → full monitor dossier (specs, all regions' prices & dealers, reviews, sources)
+router.html   → full router dossier (specs, all regions, reviews, sources)
+styles.css    → shared design system (one source of truth for all pages)
 ```
 
 ## Design
@@ -49,6 +52,11 @@ Best India path is import / B2B special-order (strongest lead: Cirqube Systems, 
 **UAE alternative — it IS sold there:** Buy4Less (Dubai, +971 55 253 0853, AED 3,608 in
 stock); also Sharaf DG (~AED 3,499) and Amazon.ae. Don't confuse it with the older
 GT-BE19000 (Black, non-AI).
+
+**China:** Monitor is sold officially (国行) — ASUS e-store ¥8,999, JD.com ¥8,499 (¥7,955
+JD PLUS); CN name 华硕 ROG 超杀 27 Pro 二代. Router has no domestic SKU — only JD Worldwide
+cross-border import (~¥11,576). Don't confuse it with the GT-BE96AI ("ROG 八爪鱼 7 AI"),
+a different model that *is* sold in China.
 
 ## Honesty note
 
